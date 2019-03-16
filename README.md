@@ -42,6 +42,7 @@ uauth support basic authentication and authorization.Below is information about 
 | Get Roles | `$this->uauth->getRoles` | - | array / null
 | Authorization | `$this->uauth->authorization` | `$string_roles` (if more than 1 roles, separate by  `','` ) type : ``('admin,editor,author')`` | true / false
 | Get UserId | `$this->uauth->getUserId` | - | `userId string` / null
+| IsLogin | `$this->uauth->isLogin`` | - | true / false
 
 
 ## Development
