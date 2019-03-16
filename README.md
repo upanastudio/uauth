@@ -33,6 +33,7 @@ You need to configuration some files before using it properly.
 * Edit the login url, logout url, admin url as you wish.
 * Setting your database name of the the projects.
 * Setting up the table. Import 2 .sql files to your database.
+
 a. For Auth Tokens
 <pre><code>
 DROP TABLE IF EXISTS `auth_tokens`;
